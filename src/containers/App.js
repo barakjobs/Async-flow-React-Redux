@@ -52,7 +52,6 @@ class App extends Component {
               Last Modified at {new Date(lastUpdated).toLocaleTimeString()}.
               {' '}
             </span>}
-          }
           {!isFetching &&
             <button onClick={this.handleRefreshClick}>Refresh</button>
           }
